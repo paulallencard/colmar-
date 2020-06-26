@@ -1,0 +1,430 @@
+/* Universal Style */
+
+html { 
+    font-size: 16px;
+
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0rem; 
+    overflow-x:hidden;
+     
+}
+
+.full-page{ 
+    position: relative; 
+    top: 3.95rem;
+
+}
+
+header {
+    height: 4rem; 
+    background-color: rgba(255, 235, 147, 0.87);
+    z-index: 2; 
+    position: fixed; 
+    width: 100%; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+
+    
+}
+
+header .webname { 
+    height: 2rem; 
+    padding-left: 1.5rem; 
+    display: flex; 
+    align-items: center; 
+    
+    
+}
+
+header .webname .colmar { 
+    font-weight: bold;
+}
+
+
+.sign ul { 
+    display: inline-flex; 
+    list-style-type: none;
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 0.5rem;
+
+
+
+
+}
+
+.sign ul li { 
+    padding: 1rem; 
+}
+
+
+/* Start Here */ 
+
+
+.start-here {
+    display: flex;
+    
+    border: 0.0625rem solid black; 
+    background-color: hsla(196, 67%, 84%, 0.212);
+    height: 30rem; 
+    
+
+}
+
+.start-here .image-container { 
+    overflow: hidden; 
+    margin: 2rem 1.5rem;
+    max-width: 60%; 
+    
+
+
+}
+
+.start-here .image-container img { 
+   width: 100%; 
+    
+}
+
+.learn { 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;  
+    align-content: center; 
+    justify-content: center; 
+    
+
+    
+}
+
+.learn h1 {
+    padding-bottom: 1rem;
+}
+
+.learn p{
+    padding-bottom: 1rem;
+}
+
+button { 
+    border: black solid 1px; 
+    height: 3rem; 
+    width: 100%; 
+    background-color: rgba(105, 231, 111, 0.815); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+button:hover {
+    background-color: rgba(40, 107, 14, 0.849); 
+    transition: background-color 400ms ease-in 50ms; 
+}
+
+button p { 
+    font-size: 1.5rem;
+    margin: 0.5rem;  
+}
+
+/* Info */
+
+.info {
+    display: inline-flex;  
+    border: 1px solid black; 
+    background-color:  rgba(240, 204, 204, 0.87);
+    width: 80rem; 
+    height: 45rem; 
+    
+    
+
+}
+
+.practice {
+    display: block; 
+    margin: 2rem 1.5rem; 
+    width: 60%; 
+    
+ 
+
+}
+
+.practice .image-container {
+     
+    overflow: hidden; 
+    
+    
+    
+
+    
+
+   
+    
+}
+
+
+
+.practice .content { 
+    text-align: left; 
+    margin-top: 2rem;
+    margin-bottom: 1.5rem; 
+
+}
+
+.practice .content h1 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.practice .content p { 
+    margin-bottom: 2rem; 
+}
+
+
+/*Event*/
+
+.event { 
+    display: flexbox; 
+    flex-direction: row; 
+    justify-content: center;  
+    width: 40%; 
+    margin-bottom: 2rem; 
+    margin-top: 2rem; 
+
+}
+
+.event .orientation { 
+    height: auto; 
+    border: solid black 1px; 
+    display: flex; 
+    padding-top: 0.5rem; 
+}
+
+.orientation .image-container { 
+    width: 35%; 
+    height: auto; 
+    margin:1rem; 
+}
+
+.orientation .image-container img { 
+    max-width: 100%; 
+}
+
+.orientation .content { 
+    display: flex; 
+    flex-direction: column; 
+    align-content: center; 
+    width: 65%; 
+
+}
+
+.orientation .content p { 
+    margin: 0.5rem; 
+}
+
+
+/* Learning */ 
+
+.Learning { 
+    
+    border: 1px black solid; 
+    background-color:  rgba(174, 240, 218, 0.87);
+    
+    
+
+
+}
+
+.contain { 
+    margin: 1rem 4.5rem; 
+    display: inline-flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-content: center;
+    
+    
+}
+
+.software { 
+    display: flexbox; 
+    border: black 1px solid; 
+    width: 20rem; 
+    margin-right: 2rem; 
+    margin-bottom: 2rem; 
+}
+
+.contain .image-container {
+    height: auto;
+}
+
+.software .content { 
+    margin: 1rem; 
+}
+.software .content p {
+    margin: 0.33rem;  
+}
+.software .content h3 { 
+    margin-bottom: 0.33rem; 
+    margin-top: 1rem; 
+}
+
+.starting { 
+    height: 6rem; 
+    margin: 1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+
+}
+
+/* Thesis Exhibit*/
+
+.thesis { 
+     
+    border: black solid 1px; 
+    background-color: hsl(90, 38%, 80%);
+    width: 80rem; 
+
+    
+}
+
+.incontain{ 
+    display: flex; 
+}
+
+
+.more{ 
+    width: 60%; 
+    
+}
+
+
+
+.ex { 
+    margin: 2rem; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+
+
+.video-container { 
+    overflow: hidden; 
+    margin: 1.5rem; 
+    
+    
+}
+
+
+
+video{ 
+    max-width: 100%; 
+    
+}
+
+.content { 
+    margin-top: 1.5rem; 
+    margin-bottom: 2rem; 
+    margin-left: 1.5rem; 
+
+
+
+}
+
+.content h3 {
+    margin-bottom: 0.5rem; 
+}
+
+.article {
+    display: flexbox; 
+    justify-content: center; 
+    align-content: center; 
+    flex-direction: row;
+    width: 40%; 
+    margin-left: 1.5rem; 
+    
+    
+    
+
+}
+
+.article .fisma { 
+    border: solid black 1px; 
+    display: flex; 
+    
+
+
+}
+
+.article .fisma .image-container {
+    width: 35%; 
+    height: auto; 
+    margin: 1rem; 
+}
+
+.article .fisma .content { 
+    width: 65%; 
+    display: flex; 
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.fisma .content h4  { 
+    margin: 1rem; 
+    text-align: center;
+}
+
+.fisma .content p {
+    text-align: center; 
+}
+
+footer{
+    height: 4rem; 
+    border-top: gray doted 1px; 
+    display: flex; 
+    justify-content: space-between;
+    
+
+}
+
+footer p {
+    text-align: left; 
+    margin-left: 1.5rem; 
+    margin-top: 1rem; 
+
+}
+footer ul {
+    text-align: right; 
+    margin-right: 1.5rem; 
+    list-style-type: none;
+    display: inline-flex; 
+    margin-top: 1rem;
+    
+    
+
+}
+
+footer ul li { 
+    padding-left: 0.5rem; 
+
+}
