@@ -6,6 +6,7 @@
 
         <link rel="stylesheet" type="text/css" href="./resources/css/style.css"> 
         <link  rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="icon" href="./resources.images.ic-logo.svg" type="image/svg">
         <title> ColmarAcademy</title>
 
     </head>
@@ -16,7 +17,10 @@
    
     <!-- Header-->
     <header> 
-        <h2> <strong>COLMAR</strong>ACADEMY</h2>
+        <div class=webname>
+            <i src="./resources/images/ic-logo.svg"</i>
+            <span class=colmar>COLMAR</span><span>ACADEMY</span>
+        </div>
         <nav class=sign>
             <ul> 
                 <li>On Campus</li>
@@ -38,56 +42,65 @@
         <!--Banner-->
    
 
-        <div class=start-here> 
+        <div class=start-here>
             <div class=image-container>
                 <img src="./resources/images/banner.jpg"> 
 
             </div>
-                <h2> Learn Something New Everyday</h2>
+            <div class=learn>
+                <h1> Learn Something New Everyday</h1>
                 <p> I like to learn. Learning is good. I'm a student.</p>
-                <button>Start here</button>
+                <button>
+                    <p>Start here</p>
+                </button>
             </div>
+        </div>
            
             <!--Info-->
             <div class= info> 
                 <div class=practice>
                     <div class=image-container> 
-                        <img src=./resources/images/information-main.jpg">
+                        <img src="./resources/images/information-main.jpg">
 
                     </div>
                     <div class=content> 
-                        <h2>It doesn't hurt to keep practicing</h2>
+                        <h1>It doesn't hurt to keep practicing</h1>
                         <p>"I work so hard. I practice a lot. I need to keep practicing."</p>
                         <p class=cite> Emmanuel, Sr Strategist at Hiring.com</p>
                     </div>
                 </div>
-                <div class=orientation>
-                    <div class=image-container> 
-                        <img src="./resources/images/information-orientation.jpg"> 
+                <div class=event>
+                    <div class=orientation>
+                        <div class=image-container> 
+                            <img src="./resources/images/information-orientation.jpg"> 
+                        </div>
+                        <div class=content>
+                            <h2> Orientation date</h2>
+                            <p> Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <p> <a href="index.html"> Read more</a></p>
+                        </div>
                     </div>
-                    <h4> Oritentation date</h4>
-                    <p> Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <p> <a href="index.html"> Read more</a></p>
-                </div>
-                <div class=our-campus> 
-                    <div class=image-container> 
-                        <img src="./resources/images/information-campus.jpg">
+                    <div class=orientation> 
+                        <div class=image-container> 
+                            <img src="./resources/images/information-campus.jpg">
+                        </div>
+                        <div class=content> 
+                            <h2>Our campus</h2>
+                            <p>Find which campus is close by you</p>
+                            <p><a href="index.html">Read more</a></p>
+                        </div>
                     </div>
-                    <div> 
-                        <p>Find which campus is close by you</p>
-                        <p><a href="index.html">Read more</a></p>
-                    </div>
-                </div>
-                <div class=guest> 
-                    <div class=image-container> 
-                        <img src="./resources/images/information-guest-lecture.jpg">
-                    </div>
-                    <div class=content> 
-                        <h2>Our guest lecture</h2>
-                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                        <p><a src="index.html">Read more</a></p>
-                    </div>
+                    <div class=orientation> 
+                        <div class=image-container> 
+                            <img src="./resources/images/information-guest-lecture.jpg">
+                        </div>
+                        <div class=content> 
+                            <h2>Our guest lecture</h2>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <p><a href="index.html">Read more</a></p>
+                        </div>
 
+                    </div>
                 </div>
 
             </div>
@@ -95,9 +108,10 @@
             <!--Learning-->
 
             <div class=Learning> 
-                <header> 
+                <div class=starting> 
                     <h2>Start learning</h2>
-                </header>
+                </div> 
+                
                 <div class=contain> 
                     <div class=software> 
                         <div class=image-container> 
@@ -110,7 +124,7 @@
 
                         </div>
                     </div>
-                    <div class= Computer>
+                    <div class= software>
                         <div class=image-container> 
                             <img src="./resources/images/course-computer-art.jpg">
 
@@ -121,7 +135,7 @@
                             <p>Image & Design, Web Design, Motion Graphics & Visual Effect, Computer Animation</p>
                         </div>
                     </div>
-                    <div class=design> 
+                    <div class=software> 
                         <div class=img-container>
                             <img src=./resources/images/course-design.jpg> 
                         </div>
@@ -131,7 +145,7 @@
                             <p>User Experience Design, User Research, Visual Design</p>
                         </div>
                     </div>
-                    <div class= data> 
+                    <div class= software> 
                         <div class=image-container> 
                             <img src="./resources/images/course-data.jpg">
                         </div>
@@ -142,7 +156,7 @@
                         </div>
 
                     </div>
-                    <div class=business> 
+                    <div class=software> 
                         <div class=image-container> 
                             <img src="./resources/images/course-business.jpg">
 
@@ -154,7 +168,7 @@
                             
                         </div>
                     </div>
-                    <div class=Marketing> 
+                    <div class=software> 
                         <div class=image-container> 
                             <img src="./resources/images/course-marketing.jpg">
 
@@ -171,14 +185,15 @@
             <!--Thesis-->
 
             <div class=thesis> 
-                <header> 
+                <div class=ex> 
                     <h2>Thesis exhibit</h2>
 
-                </header>
-                <div class=contain> 
-                    <div class=urban>
+                </div>
+                <div class=incontain> 
+                    <div class=more>
+                    
                         <div class=video-container> 
-                            <video>
+                            <video autoplay mute loop>
                                 <source src="resources/videos/thesis.mp4" type="video/mp4">
                             </video>
                         </div>
@@ -189,6 +204,7 @@
                             <p> "Urban planning, architecture, intelligent things."</p>
                         </div>
                     </div>
+                    
                     <div class=article> 
                         <div class=fisma> 
                             <div class=image-container> 
@@ -201,7 +217,7 @@
                             </div>
 
                         </div>
-                        <div class=now> 
+                        <div class=fisma> 
                             <div class=image-container> 
                                 <img src="resources/images/thesis-now-and-then.jpg">
 
@@ -218,9 +234,17 @@
 
 
 
-        </div>
+        
 
+            <footer> 
+                <p> <i class="fa fa-copyright"></i>2016 Colmar Academy. All rights reserved</p>
+                <ul> 
+                    <li> Terms</li>
+                    <li> Privacy </li>
+                </ul>
     
+    
+            </footer>
 
 
 
@@ -237,15 +261,7 @@
 
 
 
-    <footer> 
-        <p> <i src="fa fa-copyright"></i>2016 Colmar Academy. All rights reserved</p>
-        <ul> 
-            <li> Terms</li>
-            <li> Privacy </li>
-        </ul>
-
-
-    </footer>
+        
 
 
 
