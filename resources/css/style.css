@@ -230,7 +230,7 @@ button p {
 
 #info {
     display: inline-flex;   
-    width: 80rem; 
+    width: 100%; 
     height: 45rem; 
     background-color: rgba(248, 248, 248, 0.801);
     color:rgb(109, 140, 155);
@@ -391,6 +391,7 @@ button p {
     background-color: rgb(204, 159, 159);
     color: rgb(240, 233, 233); 
     padding-top: 4rem; 
+    width: 100%;
 }
 
 .starting{ 
@@ -475,7 +476,7 @@ button p {
     .software h3 {
         padding-top: 1rem;
         padding-bottom: 1.5rem; 
-        
+
     }
 
 
@@ -486,7 +487,7 @@ button p {
 
 #thesis { 
      
-    width: 80rem; 
+    width: 100%; 
     background-color: rgba(236, 235, 236, 0.801);
     padding-top: 4.01rem; 
 
@@ -634,6 +635,7 @@ footer{
     justify-content: space-between;
     background-color: rgb(168, 156, 156);
     color: white; 
+    width: 100%; 
     
 
 }
