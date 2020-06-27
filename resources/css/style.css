@@ -80,6 +80,52 @@ header .webname .colmar {
 
 }
 
+header .mobile {
+    display: none; 
+}
+
+@media only screen and (max-width: 720px){ 
+    header {
+        height: 64px;
+        padding: .5rem 0;
+        width: 100%; 
+    
+        
+
+    }
+
+    header .webname { 
+        display: none; 
+
+    }
+
+    header .sign { 
+        display: none; 
+    }
+
+    header .mobile { 
+        display: block; 
+        width: 100%; 
+    
+    }
+
+    header .mobile ul { 
+        list-style-type: none; 
+        display: flex; 
+        justify-content: space-around; 
+        padding: 0.5rem; 
+        width: 100%; 
+        
+
+    
+
+    }
+
+    header .mobile ul li { 
+        padding: 0; 
+    }
+}
+
 .sign ul li { 
     padding: 1rem; 
 }
@@ -152,6 +198,32 @@ button p {
     margin: 0.5rem; 
     text-align: center;
     color: white;  
+}
+
+@media only screen and (max-width:720px){ 
+    .start-here {
+        display: block; 
+        height: auto; 
+
+    }
+    .start-here .image-container { 
+        max-width: 100%; 
+        height: auto; 
+        margin:0; 
+        
+
+    }
+    .learn h1{ 
+        margin: 2rem 1rem; 
+
+    }
+    .descript {
+        margin-bottom: 1.5rem;
+        padding-bottom: 0;  
+    }
+    button { 
+        margin-bottom: 2rem; 
+    }
 }
 
 /* Info */
@@ -239,15 +311,7 @@ button p {
 
 }
 
-.orientation .image-container { 
-    width: 35%; 
-    height: auto; 
-    margin:1rem; 
-}
 
-.orientation .image-container img { 
-    max-width: 100%; 
-}
 
 .orientation .content { 
     display: flex; 
@@ -259,6 +323,65 @@ button p {
 
 .orientation .content p { 
     margin: 0.5rem; 
+}
+
+ .orientation .image-container { 
+        width: 35%; 
+        height: auto; 
+        margin:1rem; 
+    }
+    
+.orientation .image-container img { 
+        width: 100%; 
+        display: block; 
+    }
+ 
+.mobile-container { 
+        display: none;  
+    }
+
+@media only screen and (max-width: 720px) { 
+    #info { 
+        width: 100%; 
+        height: auto; 
+        margin:0; 
+        padding: 0; 
+        }
+    .practice { 
+        display: none; 
+        }
+    .event { 
+        width: 100%; 
+        }
+        
+    .event .orientation { 
+        display: flex; 
+        flex-direction: column; 
+        width: 100%; 
+        justify-content: center; 
+            
+        }
+    
+    .orientation .mobile-container { 
+        width: 100%; 
+        padding: 1rem; 
+    
+        }
+    
+    img { 
+        width: 100%; 
+        }
+    
+    .orientation .image-container { 
+        display: none; 
+            
+    
+    
+    
+       
+    
+       
+    }
 }
 
 
@@ -302,7 +425,7 @@ button p {
     border: 1px gray solid; 
 }
 
-.contain .image-container {
+.software .image-container {
     height: auto;
 }
 
@@ -329,6 +452,34 @@ button p {
     justify-content: center; 
 
 
+}
+@media only screen and (max-width: 720px){ 
+
+
+    .software .image-container{
+        display: none; 
+    }
+    .software p {
+        display: none; 
+    }
+    .software { 
+        margin-top: 0.25rem; 
+        margin-left: 1rem;
+        margin-right: 1rem; 
+        width: 100%; 
+    }
+    #learning .contain { 
+        margin: 2rem 1rem; 
+    }
+
+    .software h3 {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem; 
+        
+    }
+
+
+    
 }
 
 /* Thesis Exhibit*/
@@ -446,6 +597,36 @@ video{
     text-align: center; 
 }
 
+.mobile-container{ 
+    display: none; 
+}
+
+@media only screen and (max-width:720px) {
+    #thesis { 
+        width: 100%;
+        padding-top: 2rem; 
+    }
+    .more { 
+        display: none; 
+    }
+    .ex { 
+        margin: 0; 
+        padding-top: 0;
+        
+    }
+    
+
+    .mobile-container {
+        display: block; 
+        width: 100%; 
+        margin-top:1rem; 
+        margin-bottom: 1.5rem;
+    }
+
+    #thesis .content, .article {
+        display: none; 
+    }
+}
 footer{
     height: 4rem; 
     border: rgb(54, 54, 54) solid 1px; 
@@ -477,4 +658,20 @@ footer ul {
 footer ul li { 
     padding-left: 2rem; 
 
+}
+
+@media only screen and (max-width: 720px){ 
+    footer { 
+        width: 100%; 
+        padding: 1rem; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    footer ul { 
+        display: none; 
+    }
+    footer p {
+        margin: 0; 
+    }
 }
