@@ -84,7 +84,7 @@ header .mobile {
     display: none; 
 }
 
-@media only screen and (max-width: 895px){ 
+@media only screen and (max-width: 895px) and (orientation: portrait){ 
     header {
         height: 4rem;
         padding: .5rem 0;
@@ -201,7 +201,7 @@ button p {
     color: white;  
 }
 
-@media only screen and (max-width:895px){ 
+@media only screen and (max-width:895px)and (orientation: portrait){ 
     .start-here {
         display: block; 
         height: auto; 
@@ -342,7 +342,7 @@ button p {
         display: none;  
     }
 
-@media only screen and (max-width:895px) { 
+@media only screen and (max-width:895px) and (orientation: portrait){ 
     #info { 
         width: 100%; 
         height: auto; 
@@ -456,7 +456,7 @@ button p {
 
 
 }
-@media only screen and (max-width: 895px){ 
+@media only screen and (max-width: 895px)and (orientation: portrait){ 
     #learning { 
         width: 100%; 
     }
@@ -607,7 +607,7 @@ video{
     display: none; 
 }
 
-@media only screen and (max-width:895px) {
+@media only screen and (max-width:895px) and (orientation: portrait) {
     #thesis { 
         width: 100%;
         padding-top: 2rem; 
@@ -667,7 +667,7 @@ footer ul li {
 
 }
 
-@media only screen and (max-width: 895px){ 
+@media only screen and (max-width: 895px)and (orientation: portrait){ 
     footer { 
         width: 100%; 
         padding: 1rem; 
