@@ -162,7 +162,7 @@ button p {
     height: 45rem; 
     background-color: rgba(248, 248, 248, 0.801);
     color:rgb(109, 140, 155);
-    padding: 5rem; 
+    padding-top: 4rem; 
   
     
     
@@ -267,7 +267,7 @@ button p {
 #learning { 
     background-color: rgb(204, 159, 159);
     color: rgb(240, 233, 233); 
-    padding: 5rem; 
+    padding-top: 4rem; 
 }
 
 .starting{ 
@@ -337,7 +337,7 @@ button p {
      
     width: 80rem; 
     background-color: rgba(236, 235, 236, 0.801);
-    padding-top: 5rem; 
+    padding-top: 4.01rem; 
 
     
 }
@@ -356,7 +356,7 @@ button p {
 
 
 .ex { 
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
     display: flex; 
     justify-content: center; 
     align-items: center;  
