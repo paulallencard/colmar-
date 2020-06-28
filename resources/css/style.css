@@ -78,6 +78,7 @@ header .webname .colmar {
     justify-content: center; 
     align-items: center; 
     margin-right: 0.5rem;
+    width: 100%; 
 
 
 
@@ -109,7 +110,7 @@ header .mobile {
 
     header .mobile { 
         display: block; 
-        max-width: 100%; 
+        width: 100%; 
     
     }
 
@@ -169,6 +170,7 @@ header .mobile {
     flex-direction: column;  
     align-content: center; 
     justify-content: center; 
+    width: 100%; 
     
 
     
@@ -192,7 +194,7 @@ button {
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .8s ease-out;
-    margin-right: 0.5rem; 
+     
 }
 
 button:hover {
