@@ -91,7 +91,7 @@ header .mobile {
 @media only screen and (max-width: 940px) { 
     header {
         height: 4rem;
-        padding: .5rem 0;
+        padding: 0; 
         width: 100%; 
     
         
@@ -186,12 +186,13 @@ header .mobile {
 
 button { 
     height: 3rem; 
-    width: 27rem; 
+    width: 85%; 
     display: block; 
     background: linear-gradient(to right, rgb(2, 19, 27) 50%, rgb(21, 70, 95) 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .8s ease-out;
+    margin-right: 0.5rem; 
 }
 
 button:hover {
