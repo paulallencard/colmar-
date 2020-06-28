@@ -92,7 +92,7 @@ header .mobile {
     header {
         height: 4rem;
         padding: 0; 
-        width: 100%; 
+        max-width: 100%; 
     
         
 
@@ -109,7 +109,7 @@ header .mobile {
 
     header .mobile { 
         display: block; 
-        width: 100%; 
+        max-width: 100%; 
     
     }
 
@@ -230,6 +230,7 @@ button p {
     }
     button { 
         margin-bottom: 2rem; 
+        width: 100%; 
     }
 }
 
