@@ -36,6 +36,10 @@ body {
 .full-page{ 
     position: relative; 
     top: 3.95rem;
+    width: 100%; 
+    padding-right: 0; 
+    margin-right: 0; 
+    
 
 }
 
